@@ -1,0 +1,85 @@
+.flex-item {
+  flex: 0 0 22%; /* Adjusts the width of each item */
+  margin: 1%;
+  box-shadow: none; /* Removes the box shadow */
+  display: flex; /* Ensure flexbox behavior */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: space-between; /* Distribute space evenly between items */
+  align-items: center; /* Center align items horizontally */
+}
+
+.flex-item .card {
+  border: none; /* Removes the border */
+  height: 100%; /* Make the card height consistent */
+  display: flex; /* Ensure flexbox behavior */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: space-between; /* Distribute space evenly between items */
+  align-items: center; /* Center align items horizontally */
+}
+
+.flex-item .card.no-border {
+  box-shadow: none; /* Ensures no box shadow */
+  border: none; /* Ensures no border */
+}
+
+.flex-item .card-img-top {
+  height: 140px;
+  object-fit: contain;
+  width: 100%; /* Ensure image takes full width */
+}
+
+.flex-item .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center align items horizontally */
+  margin-bottom: 15px; /* Default margin-bottom */
+  padding: 0 15px; /* Optional: Add padding to card body */
+}
+
+.flex-item .card-body.text-center {
+  text-align: center; /* Center align text */
+}
+
+.how-to-apply-div {
+  margin-top: 50px;
+  font-family: "Work Sans";
+  background-color: white;
+  color: rgba(48, 110, 323, 1);
+  font-weight: bold;
+}
+
+.hta-title, .card-steps { 
+  font-weight: bold;
+  color: rgba(48, 110, 323, 1);
+}
+
+.hta-title {
+  padding-top: 35px;
+}
+
+@media (max-width: 767px) {
+  .d-flex {
+      flex-wrap: nowrap; /* Prevent wrapping */
+
+  }
+
+  .flex-item {
+      flex: 0 0 20%; /* Slightly reduce the width to fit all items in one row */
+      justify-content: center;
+      vertical-align: middle;
+  }
+
+  .flex-item .card {
+      height: auto; /* Adjust height for small screens */
+  }
+
+  .flex-item .card-body {
+      margin-bottom: 15px; /* Adjust margin-bottom for small screens */
+      align-items: center;
+  }
+
+  .flex-item .card-img-top {
+      height: auto; /* Adjust image height for small screens */
+  }
+}

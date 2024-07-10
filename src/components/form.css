@@ -1,0 +1,22 @@
+
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.form-container {
+    max-width: 500px; /* Set a maximum width for the form */
+    
+}
+.form-css{
+  font-family: "Times New Roman", Times, serif;
+
+}
+.card-body{
+  background-color: #e0f3ff;
+}
+.form-control{
+  background-color: #e0f3ff;
+}
+
+

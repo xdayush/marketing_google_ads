@@ -1,0 +1,20 @@
+.apply-div {
+    font-family: "Work Sans";
+}
+
+.card.card-apply {
+    height: 300px; /* Default height */
+}
+
+@media (max-width: 767px) {
+    .card.card-apply {
+        height: 400px;
+    }
+}
+.margin-apply{
+    margin-top: 60px;
+    /* padding-top: 20px; */
+}
+.margin-left{
+    margin-left: 20px;
+}

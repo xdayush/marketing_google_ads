@@ -1,0 +1,10 @@
+
+.para {
+
+    padding: 32px;
+    z-index: 100;
+  }
+  p{
+    font-size: 16px;
+    line-height: 40px;
+  }

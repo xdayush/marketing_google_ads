@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.main-div-app{
+  background-color: #2c3ce3;
+  color: white;
+  font-family: "Roboto Slab";
+}
+/* .img-app{
+      height: 100vh;
+      border: 1px solid black;
+      background: url('../public/img/app-img.png') ;
+      background-repeat: no-repeat;
+      background-position: center; 
+      background-size: contain; 
+      border: none;
+    
+    } */
